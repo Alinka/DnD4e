@@ -24,6 +24,49 @@
     }
   },
   {
+  "key":"bonus_at_will",
+  "name":"Bonuis At-Will Power",
+  "description": "You know one extra at-will power from your class.",
+  "bonus":{
+  	  "BonusAtWill":{
+	  "amount":1,
+	  "same_class":true
+	  }
+  }
+  },
+  {
+  "key":"bonus_feat",
+  "name":"Bonuis Feat",
+  "description": "You gain a bonus feat at 1st level. You must meet the feat’s prerequisites.",
+  "bonus":{
+  	  "BonusFeat":{
+	  "amount":1	  
+	  }
+  }
+  },
+    {
+    "key": "bonus_skill",
+    "name": "Bonus Skill",
+    "description": " You gain training in one additional skill from your class skill list",
+    "bonus": {
+      "BonusSkill": {
+	  	  "amount":1,
+		  "same_class":true
+	  }
+    }
+  },
+    
+  {
+  	  "key":"bold",
+	  "name":"Bold",
+	  "description" :"You gain a +5 racial bonus to saving throws against fear.",
+	  "bonus":{
+	  	  "SavingThrow":{
+		  	  "fear":5
+		  }
+	  }
+  },
+  {
     "key": "cast_iron_stomach",
     "name": "Cast-Iron Stomach",
     "description": "+5 racial bonus to saving throws against poison.",
@@ -33,7 +76,17 @@
       }
     }
   },
-
+  {
+  "key":"dilettante",
+  "name":"Dilettante",
+  "description": "At 1st level, you choose an at-will power from a class different from yours. You can use that power as an encounter power.",
+  "bonus":{
+  	  "BonusAtWill":{
+	  "amount":1,
+	  "same_class":false
+	  }
+  }
+  },
   {
     "key": "dragonborn_fury",
     "name": "Dragonborn Fury",
@@ -55,6 +108,18 @@
     }
   },
   {
+  "key":"dual_heritage",
+  "name":"Dual Heritage",
+  "description":"You can take feats that have either elf or human as a prerequisite (as well as those specifically for half-elves), as long as you meet any other requirements.",
+  "bonus":{
+  	  "BonusFeat":{
+	  	  "human":1,
+		  "elf":1,
+		  "halfelf":1
+	  }
+  }
+  },
+  {
     "key": "dwarven_weapon_proficiency",
     "name": "Dwarven Weapon Proficiency",
     "description": "You gain proficiency with the throwing hammer and the warhammer.",
@@ -69,9 +134,11 @@
     "name": "Eladrin Education",
     "description": "You gain training in one additional skill selected from the skill list.",
     "bonus": {
-      "BonusSkill": 1
+      "BonusSkill": {
+	  	  "amount":1,
+		  "same_class":false
+	  }
     }
-
   },
   {
     "key": "eladrin_weapon_proficiency",
@@ -113,6 +180,14 @@
     "description": "You move at your normal speed even when it would normally be reduced by armor or a heavy load. Other effects that limit speed (such as difficult terrain or magical effects) affect you normally."    
   },
   {
+  "key":"extra_language",
+  "name":"Extra Language",
+  "description":"choice of one other",
+  "bonus":{
+  	  "BonusLanguage":1
+  }
+  },
+  {
   	  "key" : "fey_origin",
 	  "name" : "Fey Origin",
 	  "description" : " Your ancestors were native to the Feywild, so you are considered a fey creature for the purpose of effects that relate to creature origin."
@@ -121,6 +196,33 @@
   "key":"group_awareness",
   "name":"Group Awareness",
   "description":"You grant non-elf allies within 5 squares of you a +1 racial bonus to Perception checks."
+  },
+    {
+  "key":"group_diplomacy",
+  "name":"Group Diplomacy",
+  "description":"You grant allies within 10 squares of you a +1 racial bonus to Diplomacy checks."
+  },
+  {
+	"key":"human_defense_bonus",
+	"name":"Human Defense Bonuses",
+	"description":"+1 to Fortitude, Reflex, and Will defenses.",
+	"bonus":{
+		"Defence":{
+		"fortitude":1,
+		"reflex":1,
+		"will":1
+		}
+	}
+  },
+    {
+  	  "key":"nimble_reaction",
+	  "name":"Nimble Reaction",
+	  "description" :"You gain a +2 racial bonus to AC against opportunity attacks.",
+	  "bonus":{
+	  	  "OpportunityDefence":{
+		  	  "ArmorClass":2
+		  }
+	  }
   },
   {
     "key": "stand_your_ground",

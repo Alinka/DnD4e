@@ -1,0 +1,30 @@
+{
+  "description": "<b><i>Quick and resourceful wanderers, small in stature but great in courage</i></b>",
+  "height": "117-127 cm",
+  "weight": "34-39 kg",
+  "ability_score_bonus": {
+    "description": "+2 Dexterity, +2 Charisma",
+    "ability_score_incr": {
+      "dexterity": 2,
+      "charisma": 2
+    }
+  },
+  "size": "Small",
+  "speed": "11 meters",
+  "vision": "Normal",
+  "languages": [
+    "Common"
+  ],
+  "skill_bonus": {
+    "description": "+2 Acrobatics, +2 Thievery",
+    "skill_bonus_incr": {
+	"acrobatics":2,
+	  "thievery":2
+    }
+  },
+  "racial_power": {
+    "name": "second_chance",
+    "description": "You can use second chance as an encounter power."
+  },
+  "traits": [ "extra_language", "bold","nimble_reaction" ]
+}

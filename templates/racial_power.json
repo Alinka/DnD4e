@@ -43,5 +43,14 @@
 	  "action_type": "Move",
 	  "range":"personal",
 	  "effect" : "Teleport up to 5 squares."
+  },
+  {
+  	  "key":"second_chance",
+	  "name":"Second Chance",
+	  "description":"Luck and small size combine to work in your favor as you dodge your enemy’s attack.",
+	  "usage":"Encounter",
+	  "action_type":"Immediate Interrupt",
+	  "range":"personal",
+	  "effect":"When an attack hits you, force an enemy to roll the attack again. The enemy uses the second roll, even if it’s lower."
   }
 ]

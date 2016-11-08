@@ -1,0 +1,31 @@
+{
+  "description": "<b><i>Born heroes and leaders who combine the best features of humans and elves</i></b>",
+  "height": "165-188 cm",
+  "weight": "59-86 kg",
+  "ability_score_bonus": {
+    "description": "+2 Constitution, +2 Charisma",
+    "ability_score_incr": {
+      "constitution": 2,
+      "charisma": 2
+    }
+  },
+  "size": "Medium",
+  "speed": "11 meters",
+  "vision": "Low-light",
+  "languages": [
+    "Common",
+	"Elven"	
+  ],
+  "skill_bonus": {
+    "description": "+2 Diplomacy, +2 Insight",
+    "skill_bonus_incr": {
+     	  "diplomacy":2,
+		  "insight":2
+    }
+  },
+  "racial_power": {
+    "name": "",
+    "description": ""
+  },
+  "traits": [ "extra_language", "dilettante", "dual_heritage", "group_diplomacy" ]
+}
