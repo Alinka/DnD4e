@@ -10,7 +10,7 @@
     }
   },
  "size": "Medium",
-  "speed": 6,
+  "speed": "11 meters",
   "vision": "Low-light",
   "languages": [
     "Common", "Elven"
@@ -23,9 +23,9 @@
     }
   },
   "racial_power": {
-    "name": "",
-    "description": ""
+    "name": "fey_step",
+    "description": "You can use fey step as an encounter power."
 
   },
-  "traits": [ "eladrin_education", "eladrin_weapon_proficiency", "eladrin_will" ]
+  "traits": [ "eladrin_education", "eladrin_weapon_proficiency", "eladrin_will", "fey_origin" ]
 }

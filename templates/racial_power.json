@@ -18,13 +18,30 @@
       { "lvl_21": "3d6 + {CONMod} + 6" }
     ],
     "special": "When you create your character, choose Strength, Constitution, or Dexterity as the ability score you use when making attack rolls with this power. You also choose the power’s damage type: acid, cold, fire, lightning, or poison. These two choices remain throughout your character’s life and do not change the power’s other effects."
-
   },
   {
     "key": "dwarven_resilience",
     "name": "Dwarven Resilience",
     "description": "You can use your second wind as a minor action instead of a standard action.",
     "change_to_minor": "second_wind"
-
+  },
+  {
+  "key":"elven_accuracy",
+  "name":"Elven Accuracy",
+  "description":"With an instant of focus, you take careful aim at your foe and strike with the legendary accuracy of the elves.",
+  "usage": "Encounter",
+  "action_type":"Free Action",
+  "range":"personal",
+  "effect" : "Reroll an attack roll. Use the second roll, even if it’s lower."
+  },
+  {
+  	  "key":"fey_step",
+	  "name" : "Fey Step",
+	  "description":"With a step, you vanish from one place and appear in another.",
+	  "usage" : "Encounter",
+	  "effect_type" : "Teleportation",
+	  "action_type": "Move",
+	  "range":"personal",
+	  "effect" : "Teleport up to 5 squares."
   }
 ]

@@ -57,7 +57,7 @@
   {
     "key": "dwarven_weapon_proficiency",
     "name": "Dwarven Weapon Proficiency",
-    "desription": "You gain proficiency with the throwing hammer and the warhammer.",
+    "description": "You gain proficiency with the throwing hammer and the warhammer.",
     "bonus": {
       "WeaponProficiency": {
         "weapon": [ "throwing_hammer", "warhammer" ]
@@ -76,10 +76,10 @@
   {
     "key": "eladrin_weapon_proficiency",
     "name": "Eladrin Weapon Proficiency",
-    "desription": "You gain proficiency with the longsword.",
+    "description": "You gain proficiency with the longsword.",
     "bonus": {
       "WeaponProficiency": {
-        "weapon": [ "throwing_hammer", "warhammer", "longsword" ]
+        "weapon": [ "longsword" ]
       }
     }
   },
@@ -97,13 +97,44 @@
     }
   },
   {
+      "key": "elven_weapon_proficiency",
+    "name": "Elven Weapon Proficiency",
+    "description": " You gain proficiency with the longbow and the shortbow",
+    "bonus": {
+      "WeaponProficiency": {
+        "weapon": [ "longbow", "shortbow"]
+      }
+    }
+
+  },
+  {
     "key": "encumbered_speed",
     "name": "Encumbered Speed",
-    "desription": "You move at your normal speed even when it would normally be reduced by armor or a heavy load. Other effects that limit speed (such as difficult terrain or magical effects) affect you normally."    
+    "description": "You move at your normal speed even when it would normally be reduced by armor or a heavy load. Other effects that limit speed (such as difficult terrain or magical effects) affect you normally."    
+  },
+  {
+  	  "key" : "fey_origin",
+	  "name" : "Fey Origin",
+	  "description" : " Your ancestors were native to the Feywild, so you are considered a fey creature for the purpose of effects that relate to creature origin."
+  },
+  {
+  "key":"group_awareness",
+  "name":"Group Awareness",
+  "description":"You grant non-elf allies within 5 squares of you a +1 racial bonus to Perception checks."
   },
   {
     "key": "stand_your_ground",
     "name": "Stand Your Ground",
-    "description": " When an effect forces you to move—through a pull, a push, or a slide—you can move 1 square less than the effect specifies. This means an effect that normally pulls, pushes, or slides a target 1 square does not force you to move unless you want to.  In addition, when an attack would knock you prone, you can immediately make a saving throw to avoid falling prone."
+    "description": "When an effect forces you to move—through a pull, a push, or a slide—you can move 1 square less than the effect specifies. This means an effect that normally pulls, pushes, or slides a target 1 square does not force you to move unless you want to.  In addition, when an attack would knock you prone, you can immediately make a saving throw to avoid falling prone."
+  },
+  {
+  	  "key": "trance",
+	  "name" :"Trance",
+	  "description": " Rather than sleep, eladrin enter a meditative state known as trance. You need to spend 4 hours in this state to gain the same benefits other races gain from taking a 6-hour extended rest. While in a trance, you are fully aware of your surroundings and notice approaching enemies and other events as normal."
+  },
+  {
+  	  "key":"wild_step",
+	  "name":"Wild Step",
+	  "description":"You ignore difficult terrain when you shift (even if you have a power that allows you to shift multiple squares)."
   }
 ]

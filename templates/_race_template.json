@@ -18,7 +18,7 @@
     }
   },
   "size": "",
-  "speed": 6,
+  "speed": "11 meters",
   "vision": "",
   "languages": [
     ""
@@ -30,13 +30,14 @@
       "dungeoneering": 0,
       "endurance": 0,
       "history": 0,
-      "intimidate": 0
+      "intimidate": 0,
+	  "nature": 0,
+	  "perception":0
     }
   },
   "racial_power": {
     "name": "",
     "description": ""
-
   },
   "traits": [ "" ]
 }
