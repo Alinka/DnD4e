@@ -2,42 +2,108 @@
   {
     "key": "traits_template",
     "name": "Traits Template",
-    "type": "SavingThrow",
-    "description": "+5 racial bonus to saving throws against poison.",
-    "formula": "",
-    "bonus": 5,
-    "wepon_type": [ "throwing_hammer", "warhammer" ]
-
+    "description": "text description",
+    "formula": "{stat} + {bonus}",
+    "bonus": {
+      "SavingThrow": {
+        "poison": 5,
+        "charm": 5
+      },
+      "Defence": {
+        "will": 1
+      },
+      "Bloodied": {
+        "attack": 1
+      },
+      "WeaponProficiency": {
+        "weapon": [ "weapon_name" ]
+      },
+      "HealingSurge": {
+        "formula": "0.25 * {HP} + {CON}"
+      }
+    }
   },
   {
     "key": "cast_iron_stomach",
     "name": "Cast-Iron Stomach",
-    "type": "SavingThrow",
     "description": "+5 racial bonus to saving throws against poison.",
-    "formula": "",
-    "bonus": 5
+    "bonus": {
+      "SavingThrow": {
+        "poison": 5
+      }
+    }
   },
 
   {
-    "name": "dragonborn_fury",
-    "type": "BlodiedAttack",
+    "key": "dragonborn_fury",
+    "name": "Dragonborn Fury",
     "description": "When you’re bloodied, you gain a +1 racial bonus to attack rolls.",
-    "formula": "",
-    "bonus": "1"
+    "bonus": {
+      "Bloodied": {
+        "attack": 1
+      }
+    }
   },
   {
-    "name": "draconic_heritage",
-    "type": "HealingSurge",
+    "key": "draconic_heritage",
+    "name": "Draconic Heritage",
     "description": " Your healing surge value is equal to one-quarter of your maximum hit points + your Constitution modifier",
-    "formula": "0.25 * {HP} + {CON}",
-    "bonus": ""
-    //"abilityMod" :  "CON"
+    "bonus": {
+      "HealingSurge": {
+        "formula": "0.25 * {HP} + {CON}"
+      }
+    }
   },
   {
     "key": "dwarven_weapon_proficiency",
     "name": "Dwarven Weapon Proficiency",
-    "type": "WeaponProficiency",
     "desription": "You gain proficiency with the throwing hammer and the warhammer.",
-    "wepon_type": [ "throwing_hammer","warhammer" ]
+    "bonus": {
+      "WeaponProficiency": {
+        "weapon": [ "throwing_hammer", "warhammer" ]
+      }
+    }
+  },
+  {
+    "key": "eladrin_education",
+    "name": "Eladrin Education",
+    "description": "You gain training in one additional skill selected from the skill list.",
+    "bonus": {
+      "BonusSkill": 1
+    }
+
+  },
+  {
+    "key": "eladrin_weapon_proficiency",
+    "name": "Eladrin Weapon Proficiency",
+    "desription": "You gain proficiency with the longsword.",
+    "bonus": {
+      "WeaponProficiency": {
+        "weapon": [ "throwing_hammer", "warhammer", "longsword" ]
+      }
+    }
+  },
+  {
+    "key": "eladrin_will",
+    "name": "Eladrin Will",
+    "description": "You gain a +1 racial bonus to your Will defense. In addition, you gain a +5 racial bonus to saving throws against charm effects.",
+    "bonus": {
+      "SavingThrow": {
+        "charm": 5
+      },
+      "Defence": {
+        "will": 1
+      }
+    }
+  },
+  {
+    "key": "encumbered_speed",
+    "name": "Encumbered Speed",
+    "desription": "You move at your normal speed even when it would normally be reduced by armor or a heavy load. Other effects that limit speed (such as difficult terrain or magical effects) affect you normally."    
+  },
+  {
+    "key": "stand_your_ground",
+    "name": "Stand Your Ground",
+    "description": " When an effect forces you to move—through a pull, a push, or a slide—you can move 1 square less than the effect specifies. This means an effect that normally pulls, pushes, or slides a target 1 square does not force you to move unless you want to.  In addition, when an attack would knock you prone, you can immediately make a saving throw to avoid falling prone."
   }
 ]

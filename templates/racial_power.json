@@ -1,6 +1,7 @@
 [
   {
-    "name": "dragon_breath",
+    "key": "dragon_breath",
+    "name": "Dragon Breath",
     "description": "As you open your mouth with a roar, the deadly power of your draconic kin blasts forth to engulf your foes.",
     "usage": "Encounter",
     "damage_type": "Acid, Cold, Fire, Lightning, or Poison",
@@ -20,13 +21,10 @@
 
   },
   {
-    "name": "dragon_breath",
-    "description": "As you open your mouth with a roar, the deadly power of your draconic kin blasts forth to engulf your foes.",
-    "usage": "Encounter",
-    "damage_type": "Acid, Cold, Fire, Lightning, or Poison",
-    "action_type": "Minor Action",
-    "close": "blast 3",
-    "targets": "All creatures in area"
-   
-    }
+    "key": "dwarven_resilience",
+    "name": "Dwarven Resilience",
+    "description": "You can use your second wind as a minor action instead of a standard action.",
+    "change_to_minor": "second_wind"
+
+  }
 ]

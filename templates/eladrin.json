@@ -1,0 +1,31 @@
+{
+  "description": "<b><i>Graceful warriors and wizards at home in the eldritch twilight of the Feywild</i></b>",
+  "height" : "165-185 cm",
+  "weight": "59-82 kg",
+  "ability_score_bonus": {
+    "description": "+2 Dexterity, +2 Intelligence",
+    "ability_score_incr": {
+      "dexterity": 2,
+      "intelligence": 2      
+    }
+  },
+ "size": "Medium",
+  "speed": 6,
+  "vision": "Low-light",
+  "languages": [
+    "Common", "Elven"
+  ],
+  "skill_bonus": {
+    "description": "+2 Arcana, +2 History",
+    "skill_bonus_incr": {
+      "arcana": 2,
+      "history": 2
+    }
+  },
+  "racial_power": {
+    "name": "",
+    "description": ""
+
+  },
+  "traits": [ "eladrin_education", "eladrin_weapon_proficiency", "eladrin_will" ]
+}

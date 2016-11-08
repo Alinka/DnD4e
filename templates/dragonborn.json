@@ -1,5 +1,5 @@
 {
-  "description": "\"Proud, honorable warriors, born from the blood of an ancient dragon god",
+  "description": "<b><i>Proud, honorable warriors, born from the blood of an ancient dragon god</i></b>",
   "height": "188-203 cm",
   "weight": "100-145 kg",
   "ability_score_bonus": {
@@ -17,7 +17,7 @@
     "Draconic"
   ],
   "skill_bonus": {
-    "description": "",
+    "description": "+2 History, +2 Intimidate",
     "skill_bonus_incr": {
       "history": 2,
       "intimidate": 2

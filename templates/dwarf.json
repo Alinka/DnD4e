@@ -1,5 +1,5 @@
 {
-  "description": "\"Proud, honorable warriors, born from the blood of an ancient dragon god",
+  "description": "<b><i>Masters of stone and iron, dauntless and unyielding in the face of adversity</i></b>",
   "height": "130-145 cm",
   "weight": "73-100 kg",
   "ability_score_bonus": {
@@ -11,21 +11,22 @@
   },
   "size": "Medium",
   "speed": 5,
+  "vision": "Low-light",
   "languages": [
     "Common",
-    "Draconic"
+    "Dwarven"
   ],
   "skill_bonus": {
-    "description": "",
+    "description": "+2 Dungeoneering, +2 Endurance",
     "skill_bonus_incr": {
-      "dungeoneering": 0,
-      "endurance": 0
+      "dungeoneering": 2,
+      "endurance": 2
     }
   },
-      "racial_power": {
-        "name": "dragon_breath",
-        "description": "You can use dragon breath as an encounter power."
+  "racial_power": {
+    "name": "dwarven_resilience",
+    "description": "You can use your second wind as a minor action instead of a standard action"
 
-      },
-  "traits": [ "cast_iron_stomach", "draconic_heritage" ]
-    }
+  },
+  "traits": [ "cast_iron_stomach", "dwarven_weapon_proficiency", "encumbered_speed", "stand_your_ground" ]
+}
