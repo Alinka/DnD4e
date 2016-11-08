@@ -1,0 +1,30 @@
+{
+  "description": "<b><i>Heirs of a shattered empire who live in the shadows and do not fear the dark</i></b>",
+  "height": "168-188 cm",
+  "weight": "64-104 kg",
+  "ability_score_bonus": {
+    "description": "+2 Intelligence, +2 Charisma",
+    "ability_score_incr": {
+      "intelligence": 2,
+      "charisma": 2,
+    }
+  },
+  "size": "Medium",
+  "speed": "11 meters",
+  "vision": "Low-light",
+  "languages": [
+    "Common"
+  ],
+  "skill_bonus": {
+    "description": "+2 Bluff, +2 Stealth",
+    "skill_bonus_incr": {
+    "bluff":2,
+	  "stealth":2
+    }
+  },
+  "racial_power": {
+    "name": "infernal_wrath",
+    "description": "You can use infernal wrath as an encounter power."
+  },
+  "traits": [ "extra_language", "bloodhunt", "fire_resistance" ]
+}

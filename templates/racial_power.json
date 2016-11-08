@@ -45,6 +45,15 @@
 	  "effect" : "Teleport up to 5 squares."
   },
   {
+  "key":"infernal_wrath",
+  "name":"Infernal Wrath",
+  "description":"You call upon your furious nature to improve your odds of harming your foe.",
+  "usage":"Encounter",
+  "action_type":"Minor Action",
+  "range":"personal",
+  "effect":"You can channel your fury to gain a +1 power bonus to your next attack roll against an enemy that hit you since your last turn. If your attack hits and deals damage, add your Charisma modifier as extra damage."
+  },
+  {
   	  "key":"second_chance",
 	  "name":"Second Chance",
 	  "description":"Luck and small size combine to work in your favor as you dodge your enemy’s attack.",

@@ -24,6 +24,11 @@
     }
   },
   {
+  "key":"bloodhunt",
+  "name":"Bloodhunt",
+  "description":"You gain a +1 racial bonus to attack rolls against bloodied foes."
+  },
+  {
   "key":"bonus_at_will",
   "name":"Bonuis At-Will Power",
   "description": "You know one extra at-will power from your class.",
@@ -191,6 +196,11 @@
   	  "key" : "fey_origin",
 	  "name" : "Fey Origin",
 	  "description" : " Your ancestors were native to the Feywild, so you are considered a fey creature for the purpose of effects that relate to creature origin."
+  },
+  {
+  "key":"fire_resistance",
+  "name":"Fire Resistance",
+  "description":"You have resist fire 5 + one-half your level."
   },
   {
   "key":"group_awareness",
