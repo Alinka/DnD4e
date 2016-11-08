@@ -1,0 +1,43 @@
+[
+  {
+    "key": "traits_template",
+    "name": "Traits Template",
+    "type": "SavingThrow",
+    "description": "+5 racial bonus to saving throws against poison.",
+    "formula": "",
+    "bonus": 5,
+    "wepon_type": [ "throwing_hammer", "warhammer" ]
+
+  },
+  {
+    "key": "cast_iron_stomach",
+    "name": "Cast-Iron Stomach",
+    "type": "SavingThrow",
+    "description": "+5 racial bonus to saving throws against poison.",
+    "formula": "",
+    "bonus": 5
+  },
+
+  {
+    "name": "dragonborn_fury",
+    "type": "BlodiedAttack",
+    "description": "When you’re bloodied, you gain a +1 racial bonus to attack rolls.",
+    "formula": "",
+    "bonus": "1"
+  },
+  {
+    "name": "draconic_heritage",
+    "type": "HealingSurge",
+    "description": " Your healing surge value is equal to one-quarter of your maximum hit points + your Constitution modifier",
+    "formula": "0.25 * {HP} + {CON}",
+    "bonus": ""
+    //"abilityMod" :  "CON"
+  },
+  {
+    "key": "dwarven_weapon_proficiency",
+    "name": "Dwarven Weapon Proficiency",
+    "type": "WeaponProficiency",
+    "desription": "You gain proficiency with the throwing hammer and the warhammer.",
+    "wepon_type": [ "throwing_hammer","warhammer" ]
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "description": "",
+  "height": "",
+  "weight": "",
+  "ability_score_bonus": {
+    "description": "",
+    "ability_score_incr": {
+      "strength": 1.0,
+      "dexterity": 1.0,
+      "constitution": 1.0,
+      "intelligence": 1.0,
+      "wisdom": 1.0,
+      "charisma": 1.0,
+      "defense": 0.0,
+      "willpower": 0.0,
+      "perception": 0.0,
+      "luck": 0.0
+    }
+  },
+  "size": "",
+  "speed": 6,
+  "languages": [
+    "common"
+  ],
+  "racial_power": "dragon_breath",
+  "traits": {
+    "bonus_initiative": {
+      "description": "+2 racial bonus to initiative checks",
+      "bonus": 2
+    },
+    "bonus_movement": {
+      "type": "",
+      "description": "",
+      "bonus_speed": 2,
+      "bonus_second_wind": ""
+    },
+    "bonus_skill": {
+      "skill_training": "",
+      "class_skill": "",
+      "group_skill": ""
+    },
+    "weapon_proficiency": "",
+    "reroll_skill": "",
+    "saving_throws": {
+      "type": "",
+      "description": "",
+      "bonus": 5
+    },
+    "bloodied": {
+      "type": "bloodied_attack", //Attack vs. Bloodied
+      "description": "",
+      "sefl": true, //false
+      "bonus": 1
+    },
+    "defences_bonus": {
+      "type": "",
+      "description": "",
+      "bonus": 1
+    }
+  },
+  "subraces": {}
+}

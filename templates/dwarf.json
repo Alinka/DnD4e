@@ -1,0 +1,31 @@
+{
+  "description": "\"Proud, honorable warriors, born from the blood of an ancient dragon god",
+  "height": "130-145 cm",
+  "weight": "73-100 kg",
+  "ability_score_bonus": {
+    "description": "+2 Constitution, +2 Wisdom",
+    "ability_score_incr": {
+      "constitution": 2,
+      "wisdom": 2
+    }
+  },
+  "size": "Medium",
+  "speed": 5,
+  "languages": [
+    "Common",
+    "Draconic"
+  ],
+  "skill_bonus": {
+    "description": "",
+    "skill_bonus_incr": {
+      "dungeoneering": 0,
+      "endurance": 0
+    }
+  },
+      "racial_power": {
+        "name": "dragon_breath",
+        "description": "You can use dragon breath as an encounter power."
+
+      },
+  "traits": [ "cast_iron_stomach", "draconic_heritage" ]
+    }

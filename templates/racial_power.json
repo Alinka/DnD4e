@@ -1,0 +1,32 @@
+[
+  {
+    "name": "dragon_breath",
+    "description": "As you open your mouth with a roar, the deadly power of your draconic kin blasts forth to engulf your foes.",
+    "usage": "Encounter",
+    "damage_type": "Acid, Cold, Fire, Lightning, or Poison",
+    "action_type": "Minor Action",
+    "close": "blast 3",
+    "targets": "All creatures in area",
+    "attack": {
+      "vs": "Reflex",
+      "ability": [ "{STR} + 2", "{CON} + 2", "{DEX} + 2" ]
+    },
+    "hit_die": [
+      { "lvl_1": "1d6 + {CONMod}" },
+      { "lvl_11": "2d6 + {CONMod} + 4" },
+      { "lvl_21": "3d6 + {CONMod} + 6" }
+    ],
+    "special": "When you create your character, choose Strength, Constitution, or Dexterity as the ability score you use when making attack rolls with this power. You also choose the power’s damage type: acid, cold, fire, lightning, or poison. These two choices remain throughout your character’s life and do not change the power’s other effects."
+
+  },
+  {
+    "name": "dragon_breath",
+    "description": "As you open your mouth with a roar, the deadly power of your draconic kin blasts forth to engulf your foes.",
+    "usage": "Encounter",
+    "damage_type": "Acid, Cold, Fire, Lightning, or Poison",
+    "action_type": "Minor Action",
+    "close": "blast 3",
+    "targets": "All creatures in area"
+   
+    }
+]
