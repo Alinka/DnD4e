@@ -1,0 +1,46 @@
+[
+  {
+    "key": "traits_template",
+    "name": "Traits Template",
+    "description": "text description",
+    "bonus": {
+      "SavingThrow": {
+        "poison": 5,
+        "charm": 5,
+        "fear": 5
+      },
+      "Defence": {
+        "will": 1,
+        "fortitude": 1,
+        "reflex": 1
+      },
+      "Bloodied": {
+        "attack": 1
+      },
+      "WeaponProficiency": {
+        "weapon": [ "weapon_name" ]
+      },
+      "HealingSurge": {
+        "formula": "0.25 * {HP} + {CON}"
+      },
+      "BonusAtWill": {
+        "amount": 1,
+        "same_class": true
+      },
+      "BonusFeat": {
+        "amount": 1,
+        "race": [ "human", "elf", "halfelf" ]
+      },
+      "BonusSkill": {
+        "amount": 1,
+        "same_class": true
+      },
+      "BonusLanguage": {
+        "amount": 1
+      },
+      "OpportunityDefence": {
+        "ArmorClass": 2
+      }
+    }
+  }
+]

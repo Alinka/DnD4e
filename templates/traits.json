@@ -1,75 +1,52 @@
 [
   {
-    "key": "traits_template",
-    "name": "Traits Template",
-    "description": "text description",
-    "formula": "{stat} + {bonus}",
+    "key": "bloodhunt",
+    "name": "Bloodhunt",
+    "description": "You gain a +1 racial bonus to attack rolls against bloodied foes."
+  },
+  {
+    "key": "bonus_at_will",
+    "name": "Bonuis At-Will Power",
+    "description": "You know one extra at-will power from your class.",
     "bonus": {
-      "SavingThrow": {
-        "poison": 5,
-        "charm": 5
-      },
-      "Defence": {
-        "will": 1
-      },
-      "Bloodied": {
-        "attack": 1
-      },
-      "WeaponProficiency": {
-        "weapon": [ "weapon_name" ]
-      },
-      "HealingSurge": {
-        "formula": "0.25 * {HP} + {CON}"
+      "BonusAtWill": {
+        "amount": 1,
+        "same_class": true
       }
     }
   },
   {
-  "key":"bloodhunt",
-  "name":"Bloodhunt",
-  "description":"You gain a +1 racial bonus to attack rolls against bloodied foes."
-  },
-  {
-  "key":"bonus_at_will",
-  "name":"Bonuis At-Will Power",
-  "description": "You know one extra at-will power from your class.",
-  "bonus":{
-  	  "BonusAtWill":{
-	  "amount":1,
-	  "same_class":true
-	  }
-  }
-  },
-  {
-  "key":"bonus_feat",
-  "name":"Bonuis Feat",
-  "description": "You gain a bonus feat at 1st level. You must meet the feat’s prerequisites.",
-  "bonus":{
-  	  "BonusFeat":{
-	  "amount":1	  
-	  }
-  }
-  },
-    {
-    "key": "bonus_skill",
-    "name": "Bonus Skill",
-    "description": " You gain training in one additional skill from your class skill list",
+    "key": "bonus_feat",
+    "name": "Bonuis Feat",
+    "description": "You gain a bonus feat at 1st level. You must meet the feat’s prerequisites.",
     "bonus": {
-      "BonusSkill": {
-	  	  "amount":1,
-		  "same_class":true
-	  }
+      "BonusFeat": {
+        "amount": 1,
+        "race": [ "human", "elf", "halfelf" ]
+      }
     }
   },
-    
   {
-  	  "key":"bold",
-	  "name":"Bold",
-	  "description" :"You gain a +5 racial bonus to saving throws against fear.",
-	  "bonus":{
-	  	  "SavingThrow":{
-		  	  "fear":5
-		  }
-	  }
+    "key": "bonus_skill",
+    "name": "Bonus Skill",
+    "description": "You gain training in one additional skill from your class skill list",
+    "bonus": {
+      "BonusSkill": {
+        "amount": 1,
+        "same_class": true
+      }
+    }
+  },
+
+  {
+    "key": "bold",
+    "name": "Bold",
+    "description": "You gain a +5 racial bonus to saving throws against fear.",
+    "bonus": {
+      "SavingThrow": {
+        "fear": 5
+      }
+    }
   },
   {
     "key": "cast_iron_stomach",
@@ -82,15 +59,15 @@
     }
   },
   {
-  "key":"dilettante",
-  "name":"Dilettante",
-  "description": "At 1st level, you choose an at-will power from a class different from yours. You can use that power as an encounter power.",
-  "bonus":{
-  	  "BonusAtWill":{
-	  "amount":1,
-	  "same_class":false
-	  }
-  }
+    "key": "dilettante",
+    "name": "Dilettante",
+    "description": "At 1st level, you choose an at-will power from a class different from yours. You can use that power as an encounter power.",
+    "bonus": {
+      "BonusAtWill": {
+        "amount": 1,
+        "same_class": false
+      }
+    }
   },
   {
     "key": "dragonborn_fury",
@@ -113,16 +90,16 @@
     }
   },
   {
-  "key":"dual_heritage",
-  "name":"Dual Heritage",
-  "description":"You can take feats that have either elf or human as a prerequisite (as well as those specifically for half-elves), as long as you meet any other requirements.",
-  "bonus":{
-  	  "BonusFeat":{
-	  	  "human":1,
-		  "elf":1,
-		  "halfelf":1
-	  }
-  }
+    "key": "dual_heritage",
+    "name": "Dual Heritage",
+    "description": "You can take feats that have either elf or human as a prerequisite (as well as those specifically for half-elves), as long as you meet any other requirements.",
+    "bonus": {
+      "BonusFeat": {
+        "human": 1,
+        "elf": 1,
+        "halfelf": 1
+      }
+    }
   },
   {
     "key": "dwarven_weapon_proficiency",
@@ -140,9 +117,9 @@
     "description": "You gain training in one additional skill selected from the skill list.",
     "bonus": {
       "BonusSkill": {
-	  	  "amount":1,
-		  "same_class":false
-	  }
+        "amount": 1,
+        "same_class": false
+      }
     }
   },
   {
@@ -169,12 +146,12 @@
     }
   },
   {
-      "key": "elven_weapon_proficiency",
+    "key": "elven_weapon_proficiency",
     "name": "Elven Weapon Proficiency",
     "description": " You gain proficiency with the longbow and the shortbow",
     "bonus": {
       "WeaponProficiency": {
-        "weapon": [ "longbow", "shortbow"]
+        "weapon": [ "longbow", "shortbow" ]
       }
     }
 
@@ -182,57 +159,57 @@
   {
     "key": "encumbered_speed",
     "name": "Encumbered Speed",
-    "description": "You move at your normal speed even when it would normally be reduced by armor or a heavy load. Other effects that limit speed (such as difficult terrain or magical effects) affect you normally."    
+    "description": "You move at your normal speed even when it would normally be reduced by armor or a heavy load. Other effects that limit speed (such as difficult terrain or magical effects) affect you normally."
   },
   {
-  "key":"extra_language",
-  "name":"Extra Language",
-  "description":"choice of one other",
-  "bonus":{
-  	  "BonusLanguage":1
-  }
+    "key": "extra_language",
+    "name": "Extra Language",
+    "description": "choice of one other",
+    "bonus": {
+      "BonusLanguage": 1
+    }
   },
   {
-  	  "key" : "fey_origin",
-	  "name" : "Fey Origin",
-	  "description" : " Your ancestors were native to the Feywild, so you are considered a fey creature for the purpose of effects that relate to creature origin."
+    "key": "fey_origin",
+    "name": "Fey Origin",
+    "description": " Your ancestors were native to the Feywild, so you are considered a fey creature for the purpose of effects that relate to creature origin."
   },
   {
-  "key":"fire_resistance",
-  "name":"Fire Resistance",
-  "description":"You have resist fire 5 + one-half your level."
+    "key": "fire_resistance",
+    "name": "Fire Resistance",
+    "description": "You have resist fire 5 + one-half your level."
   },
   {
-  "key":"group_awareness",
-  "name":"Group Awareness",
-  "description":"You grant non-elf allies within 5 squares of you a +1 racial bonus to Perception checks."
-  },
-    {
-  "key":"group_diplomacy",
-  "name":"Group Diplomacy",
-  "description":"You grant allies within 10 squares of you a +1 racial bonus to Diplomacy checks."
+    "key": "group_awareness",
+    "name": "Group Awareness",
+    "description": "You grant non-elf allies within 5 squares of you a +1 racial bonus to Perception checks."
   },
   {
-	"key":"human_defense_bonus",
-	"name":"Human Defense Bonuses",
-	"description":"+1 to Fortitude, Reflex, and Will defenses.",
-	"bonus":{
-		"Defence":{
-		"fortitude":1,
-		"reflex":1,
-		"will":1
-		}
-	}
+    "key": "group_diplomacy",
+    "name": "Group Diplomacy",
+    "description": "You grant allies within 10 squares of you a +1 racial bonus to Diplomacy checks."
   },
-    {
-  	  "key":"nimble_reaction",
-	  "name":"Nimble Reaction",
-	  "description" :"You gain a +2 racial bonus to AC against opportunity attacks.",
-	  "bonus":{
-	  	  "OpportunityDefence":{
-		  	  "ArmorClass":2
-		  }
-	  }
+  {
+    "key": "human_defense_bonus",
+    "name": "Human Defense Bonuses",
+    "description": "+1 to Fortitude, Reflex, and Will defenses.",
+    "bonus": {
+      "Defence": {
+        "fortitude": 1,
+        "reflex": 1,
+        "will": 1
+      }
+    }
+  },
+  {
+    "key": "nimble_reaction",
+    "name": "Nimble Reaction",
+    "description": "You gain a +2 racial bonus to AC against opportunity attacks.",
+    "bonus": {
+      "OpportunityDefence": {
+        "ArmorClass": 2
+      }
+    }
   },
   {
     "key": "stand_your_ground",
@@ -240,13 +217,13 @@
     "description": "When an effect forces you to move—through a pull, a push, or a slide—you can move 1 square less than the effect specifies. This means an effect that normally pulls, pushes, or slides a target 1 square does not force you to move unless you want to.  In addition, when an attack would knock you prone, you can immediately make a saving throw to avoid falling prone."
   },
   {
-  	  "key": "trance",
-	  "name" :"Trance",
-	  "description": " Rather than sleep, eladrin enter a meditative state known as trance. You need to spend 4 hours in this state to gain the same benefits other races gain from taking a 6-hour extended rest. While in a trance, you are fully aware of your surroundings and notice approaching enemies and other events as normal."
+    "key": "trance",
+    "name": "Trance",
+    "description": " Rather than sleep, eladrin enter a meditative state known as trance. You need to spend 4 hours in this state to gain the same benefits other races gain from taking a 6-hour extended rest. While in a trance, you are fully aware of your surroundings and notice approaching enemies and other events as normal."
   },
   {
-  	  "key":"wild_step",
-	  "name":"Wild Step",
-	  "description":"You ignore difficult terrain when you shift (even if you have a power that allows you to shift multiple squares)."
+    "key": "wild_step",
+    "name": "Wild Step",
+    "description": "You ignore difficult terrain when you shift (even if you have a power that allows you to shift multiple squares)."
   }
 ]
