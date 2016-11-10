@@ -1,0 +1,93 @@
+[
+  {
+    "level": 1,
+    "totalXP": 0,
+    "abilityScores": {
+
+    },
+    "totalPowers": {
+      "feats": 1,
+      "atwill": 2,
+      "encounter": 1,
+      "daily": 1,
+      "utility": 0
+    }
+  },
+  {
+    "level": 2,
+    "totalXP": 1000,
+    "abilityScores": {},
+    "totalPowers": {
+      "feats": 2,
+      "atwill": 2,
+      "encounter": 1,
+      "daily": 1,
+      "utility": 1
+    }
+  },
+  {
+    "level": 3,
+    "totalXP": 2250,
+    "abilityScores": {},
+    "totalPowers": {
+      "feats": 2,
+      "atwill": 2,
+      "encounter": 2,
+      "daily": 1,
+      "utility": 1
+    }
+  },
+  {
+    "level": 4,
+    "totalXP": 3750,
+    "abilityScores": {
+      "any": 2,
+      "amount": 1
+    },
+    "totalPowers": {
+      "feats": 3,
+      "atwill": 2,
+      "encounter": 2,
+      "daily": 1,
+      "utility": 1
+    }
+  },
+  {
+    "level": 5,
+    "totalXP": 5500,
+    "abilityScores": {},
+    "totalPowers": {
+      "feats": 3,
+      "atwill": 2,
+      "encounter": 2,
+      "daily": 2,
+      "utility": 1
+    }
+  },
+  {
+    "level": 6,
+    "totalXP": 7500,
+    "abilityScores": {},
+    "totalPowers": {
+      "feats": 4,
+      "atwill": 2,
+      "encounter": 2,
+      "daily": 2,
+      "utility": 2
+    }
+  },
+  {
+    "level": 7,
+    "totalXP": 10000,
+    "abilityScores": {},
+    "totalPowers": {
+      "feats": 4,
+      "atwill": 2,
+      "encounter": 3,
+      "daily": 2,
+      "utility": 2
+    }
+  }
+
+
+]
